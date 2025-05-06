@@ -1,0 +1,61 @@
+<header>
+  <div class="logo">
+    <div class="img">
+      <div class="imglogo"></div>
+    </div>
+    
+    <div class="location">
+      <h3><span>
+        BANSUD INSTITUTE, INC.
+      </span>
+      <br>
+      <span>Poblacion, Bansud, Oriental Mindoro</span></h3>
+    </div> 
+  </div>
+  
+  <nav>
+    <ul>
+    <li>
+      <i class="fa fa-bell" routerLink="/notifications" routerLinkActive="active"></i>   
+    </li>
+
+    <li (click)="toggleMenu()">
+      <i class="fa fa-bars"></i>
+    </li>
+    </ul>
+
+    <div [class.open]="isMenuOpen" class="menu">
+      
+        <li>
+          <i class="fa fa-user"></i>
+          <a routerLink="/myprofile" routerLinkActive="active">My Profile</a>
+        </li>
+      <li>
+          <i class="fa fa-calendar"></i>
+          <a routerLink="/attendance" routerLinkActive="active">Attendance</a>
+
+        </li>
+
+        <li>
+          <i class="fa fa-graduation-cap"></i>
+          <a routerLink="/grades" routerLinkActive="active">Grades</a>
+        </li>
+
+        <li>
+          <i class="fa fa-calendar"></i>
+          <a routerLink="/schedule" routerLinkActive="active">Schedule</a>
+        </li>
+        <br>
+        <br>
+        <li>
+          <i class="fa fa-sign-out"></i>
+          <a routerLink="/login" routerLinkActive="active">Logout</a>
+        </li>
+        <li>
+          <a routerLink="/personalinfo" routerLinkActive="active">Personal Info</a>
+        </li>
+    </div>
+  </nav>
+</header>
+
+<router-outlet/>  

@@ -1,0 +1,98 @@
+.one{
+	display: flex;
+	justify-content: space-around;
+	width: 600px;
+}
+.Recent{
+	height: 800px;
+	line-height: 40px;
+}
+.overall{
+	padding: 20px;
+	height: 580px;
+	border-radius: 10px;
+	box-shadow: 0 0 5px rgba(0, 0, 0, 0.3);
+	display: flex;
+	width:1200px;
+	justify-content: space-between;
+}
+.card{
+	justify-content: space-between;
+	display: flex;
+	width: 400px;
+	padding: 20px;
+}
+.container{
+	height: 120px;
+}
+.attendance p{
+	color: green;
+	padding: 7px;
+	width: 80px;
+	text-align: center;
+	border-radius: 20px;
+	background: rgba(0, 400, 0, 0.1);
+}
+.late p{
+	color: brown;
+	background: rgba(300,100, 0, 0.1);
+}
+.box{
+	width:170px;
+	border-radius: 15px;
+	height: 100px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	flex-direction: column;
+}
+.two{
+	display: flex;
+	justify-content: space-between;
+	width: 400px;
+}
+.monthly-overview{
+	line-height: 40px;
+	padding: 20px;
+	box-shadow: 0 5px 5px rgba(0, 0, 0, 0.5),0 0 10px rgba(0, 0, 0, 0.2);
+	border-radius: 10px;
+}
+.center{
+	background: lightgray;
+	border-radius: 20px;
+	width: 400px;
+}
+.rating{
+	width: 340px;
+	padding: 5px;
+	border-radius: 20px;
+	background: brown;
+}
+i{
+	font-size: 25px;
+}
+.green{
+	color: green;
+	background: rgba(0,400, 0, 0.1);
+}
+.yellow{
+	color: brown;
+	background: rgba(300,100, 0, 0.1);
+}
+.red{
+	color: red;
+	background: rgba(400,0, 0, 0.1);
+}
+.fa-exclamation{
+	justify-content: center;
+	align-items: center;
+	display: flex;
+	background: transparent;
+	border: 2px solid red;
+	width: 30px;
+	height: 30px;
+	border-radius: 50%;
+}
+h1{
+	padding:30px 0; 
+}

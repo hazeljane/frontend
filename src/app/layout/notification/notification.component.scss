@@ -1,0 +1,38 @@
+section {
+  gap: 30px;
+}
+
+.card {
+  width: 80%;
+  padding: 20px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.3);
+  border-radius: 10px;
+  height: auto;
+}
+
+.paragraph {
+  align-items: center;
+  margin-left: 30px;
+  display: flex;
+}
+
+.one {
+  padding: 5px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h3 {
+  font-size: 25px;
+}
+
+p {
+  font-size: 20px;
+}
+
+.card:hover {
+  transform: scale(1.05);
+  transition: transform 0.3s ease-in-out;
+}

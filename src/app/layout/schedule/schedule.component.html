@@ -1,0 +1,132 @@
+<button  class="back-btn">
+  <i class="fa-solid fa-chevron-left"></i> <a routerLink="/dashboard" routerLinkActive="active">Go back</a>
+</button>
+
+<section>
+	<div class="overall">
+
+  <div class="calendar">
+      <div class="width">
+        <div>
+          <button (click)="prevMonth()">
+            <i class="fa-solid fa-chevron-left"></i>
+          </button>
+        </div>
+        <h2>{{ monthNames[currentMonth] }} {{ currentYear }}</h2>
+        <div>
+          <button (click)="nextMonth()">
+            <i class="fa-solid fa-chevron-right"></i>
+          </button>
+        </div>
+      </div>
+      <div class="table">
+        <table>
+          <thead>
+            <tr>
+              <th *ngFor="let day of weekDays">{{ day }}</th>
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let week of calendar">
+              <td *ngFor="let date of week" [class.today]="isToday(date)">
+  {{ date || '' }}
+</td>
+
+            </tr>
+          </tbody>
+        </table>
+      </div>
+    </div>
+
+
+	<div class="container">
+		<header>
+			<h3>Time</h3>
+			<h3>Subject</h3>
+		</header>
+		<div class="all">
+			<div class="left">
+			<div class="time">
+				
+				<p>7:30 AM - <br>
+				8:00 AM</p>
+			</div>
+
+		</div>
+		<div>
+			
+			<div class="card">
+				<h2>Mathematics</h2>
+				<div class="teacher">
+					<img src="" alt="">
+					<p>Ma'am Mariza Rada</p>
+				</div>
+				
+			</div>
+		</div>
+		</div>
+		<div class="all">
+			<div class="left">
+			<div class="time">
+				<p>7:30 AM - <br>
+				8:00 AM</p>
+			</div>
+
+		</div>
+		<div>
+			<div class="card">
+				<h2>ENGLISH</h2>
+				<div class="teacher">
+					<img src="" alt="">
+					<p>Ma'am Hazel Jane Guno</p>
+				</div>
+				
+			</div>
+		</div>
+
+		</div>
+
+		<div class="all">
+			<div class="left">
+			<div class="time">
+				<p>10:30 AM - <br>
+				12:00 NN</p>
+			</div>
+
+		</div>
+		<div>
+			<div class="card">
+				<h2>SCIENCE</h2>
+				<div class="teacher">
+					<img src="" alt="">
+					<p>Sir Vince Audree Rey</p>
+				</div>
+				
+			</div>
+		</div>
+		
+		</div>
+		<div class="all">
+			<div class="left">
+			<div class="time">
+				<p>1:00 PM - <br>
+				2:30 PM</p>
+			</div>
+
+		</div>
+		<div>
+			<div class="card">
+				<h2>FILIPINO</h2>
+				<div class="teacher">
+					<img src="" alt="">
+					<p>Sir Justin Lhei Macalipay</p>
+				</div>
+				
+			</div>
+		</div>
+		
+		</div>
+		</div>	
+	</div>
+	
+</section>
