@@ -1,0 +1,134 @@
+
+img{
+	width: 200px;
+	height: 200px;
+	background: gray;
+}
+.profile-picture{
+	margin-top: 40px;
+	width: 1000px;
+	display: flex;
+	padding: 40px 0;
+	align-items: center;
+}
+.profile-picture h1{
+	margin-left: 45px;
+}
+.btn{
+	width: 300px;
+	justify-content: space-around;
+	display: flex;
+}
+.btn button{
+	padding: 5px;
+	border-radius: 5px;
+	background: rgba(0, 0, 0, 0.08);
+	border: none;
+}
+select{
+	padding: 5px;
+	width: 300px;
+}
+.student-status{
+	line-height: 40px;
+	height: 200px;
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+}
+
+.location{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	flex-direction: column;
+}
+
+.location h3 span{
+	font-size: 40px;
+}
+
+.personal-info{
+	width: 1000px;
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.fill{
+	display: flex;
+	justify-content: space-between;
+	width: 1000px;
+	height: 100px;
+}
+.info{
+	display: flex;
+	flex-direction: column;
+	width: 45%;
+}
+.info input{
+	padding: 10px;
+	border-radius: 10px;
+	background: rgba(0, 0, 0, 0.08);
+	border: 2px solid gray;
+}
+.fill-info{
+	margin-top: 50px;
+	height: 500px;
+	
+}
+.gender{
+	width: 100%;
+	display: flex;
+	justify-content: space-between;
+}
+.gender button{
+	width: 49%;
+	padding: 5px 10px;
+}
+button[type="submit"]{
+	padding: 10px;
+	width: 240px;
+	background: #890106;
+	color: #F4EEEE;
+	border: none;
+
+	border-radius: 5px;
+}
+.submit{margin-top: 20px;
+	width: 1000px;
+	justify-content: center;
+	align-items: center;
+	display: flex;
+}
+.educational{
+  margin-top: 100px;
+  display: flex;
+  width: 1000px;
+  align-items: center;
+}
+.educational h1{
+	margin-left: 50px;
+}
+.family{
+	margin-top:-250px;
+	display: flex;
+	width: 1000px;
+	align-items: center;
+	justify-content: space-between;
+}
+
+.emergency{
+	display: flex;
+	margin-top: -200px;
+	justify-content: space-between;
+	width: 1000px;
+}
+.guardian{
+	display: flex;
+	width: 1000px;
+	margin-top: -200px;
+}
+.emergency img{
+	width: 50%;
+}
